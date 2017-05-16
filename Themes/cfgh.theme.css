@@ -1,0 +1,254 @@
+//META{"name":"CFGH Theme","description":"Light theme - slightly outdated","author":"Zumi","version":"1.0"}*//
+
+/* Main code */
+
+.app, textarea, button{
+  font-family:"Comic Sans MS" !important;
+}
+
+.channel-members .member .member-username-inner, .channel-members .member .member-username-inner:hover{
+  font-weight:normal;
+  font-size:13px;
+  color:#3a3a3a !important;
+}
+
+.theme-dark .channel-members .avatar-small .status {
+    border-color: grey;
+    border-width:1px;
+}
+
+.theme-dark .channel-members, .theme-dark .channel-members .member, .theme-dark .channel-members .member:not(.disabled).popout-open, .theme-dark .channel-members .member:not(.disabled):hover{
+    background: #ebebeb;
+}
+
+.theme-dark .chat .has-more button{
+  background:#ebebeb;
+  border:0;
+  color:#303030
+}
+.theme-dark .chat .has-more button:hover{
+  box-shadow:none;
+}
+.theme-dark .channel-members h2 {
+    color: #3a3a3a;
+    font-weight:normal;
+}
+
+.theme-dark .message-group .embed {
+    background-color: rgba(255,255,255,.3);
+    border-color: rgba(46,48,54,.6);
+}
+
+.message-group .comment .markup, .theme-dark .message-group .comment .markup{
+  font-size:13px;
+  color:#3a3a3a;
+  line-height:1.4em;
+  margin-top: 2px;
+}
+
+.chat form {
+  background:#ebebeb;
+  border: none;
+  box-shadow:0px -1px grey;
+  margin:0;
+  padding:0 7px;
+}
+
+.theme-dark .channel-textarea-inner {
+    background-color: #fff;
+    border:1px solid gray;
+}
+
+.theme-dark .channel-textarea-upload {
+    background: url(/assets/24972a3b5eac2034c73f575c6a49207b.svg) 50% no-repeat, #444;
+}
+
+.theme-dark .channel-textarea-inner textarea {
+    color: #3a3a3a;
+    background-color: transparent;
+}
+
+.message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup code.inline{
+  font-size:13px;
+  color:#3a3a3a;
+  background:none;
+}
+
+.user-name{
+  font-size:1em;
+  text-shadow: 0 1px 0 white,
+            1px 0 0 white,
+            -1px 0 0 white,
+            0 -1px 0 white,
+            1px 1px 4px black;
+            font-weight:bold;
+            font-style:italic;
+}
+
+.user-name:after{
+  content: " said:"
+}
+
+.avatar-large, .avatar-small{
+  border:1px solid #bcbcbc;
+  border-radius:25%
+}
+
+.message-group h2 .timestamp{
+  color: #939393 !important;
+float: right;
+font-size: 12px;
+}
+
+.message-group{
+  background:#e2e2e2;
+  margin:0;
+  margin-bottom:10px;
+  min-height: 32px;
+padding: 18px 15px 16px 12px;
+}
+
+.theme-dark .message-group.is-local-bot-message {
+  background:#e2e2e2;
+  box-shadow:none;
+}
+
+.theme-dark .message-group h2 strong {
+    color: #000;
+    font-size: 13px;
+}
+
+.message-group .local-bot-message{
+  color: #000 !important;
+}
+
+.system-message{
+  color:black !important;
+  text-shadow: 0 1px 0 white,
+            1px 0 0 white,
+            -1px 0 0 white,
+            0 -1px 0 white,
+            1px 1px 4px black;
+  font-weight:bold;
+  text-align:center;
+  font-size: 13px;
+}
+
+.system-message a{
+  color:black !important;
+}
+
+.system-message-timestamp{
+  display:none;
+}
+
+.theme-dark .messages-wrapper {
+    background-color: #ebebeb;
+}
+
+.theme-dark .btn-option, .theme-dark .btn-reaction, .btn-option, .btn-reaction {
+  background-color:#666;
+  border-radius:10px;
+}
+
+::-webkit-scrollbar-thumb,.scroller-wrap .scroller::-webkit-scrollbar-track-piece{
+  border-radius:0;
+  }
+
+.guild-channels .channel-text .channel-name {
+    font-size:12px;
+}
+
+.theme-dark .message-group .embed .embed-description, .theme-dark .message-group .embed .embed-fields, .theme-dark .message-group .embed .embed-provider {
+    color: #303030;
+}
+
+* a{
+  color: #a47719 !important;
+}
+
+.message-group h2 {
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.message-group .comment {
+    margin-right: 0;
+}
+
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
+    background-color: #c1c1c1;
+    border-color: #c2c2c2;
+    border-radius: 0;
+}
+
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
+    background-color: #f1f1f1;
+    border-color: #f1f1f1;
+}
+
+
+
+
+.theme-dark .chat .title-wrap {
+    border-bottom: 1px solid #d6d4d3;
+    background: #f2f2f2;
+    font-family: "Helvetica Neue";
+    letter-spacing: 0;
+}
+
+.theme-dark .chat .title-wrap .channel-name, .theme-dark .chat .title-wrap .title.channel-group-dm-managed .channel-name, .theme-dark .chat .title-wrap .title.channel-group-dm .channel-name .input-autosize-inner .input-autosize-input {
+    color: #000;
+}
+
+.chat>.title-wrap>.title .channel-name:before {
+    content: "";
+    margin-right: 0;
+}
+
+.theme-dark .chat .title-wrap .topic {
+    color: #000;
+    font-weight: normal;
+}
+
+.header-toolbar {
+    background: grey;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Space efficient */
+
+.guilds-wrapper{
+  width: 6px;
+  transition: all 0.2s ease;
+  overflow: hidden;
+}
+.channels-wrap{
+  width: 0px;
+  transition: all 0.2s ease;
+  overflow: hidden;
+}
+.guilds-wrapper:hover{
+  width: 70px;
+}
+.guilds-wrapper:hover + .channels-wrap, .channels-wrap:hover{
+  width: 300px;
+}
+
+.chat .divider{
+  display:none;
+}
+
+/*.chat>.title-wrap {
+    min-height: 0;
+    height:5px;
+    overflow:hidden;
+    transition: all 0.2s ease;
+    opacity:0;
+}
+
+.chat>.title-wrap:hover{
+  height:70px;
+  opacity:1;
+}*/
